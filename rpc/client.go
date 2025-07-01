@@ -177,7 +177,7 @@ func (op *requestOp) wait(ctx context.Context, c *Client) ([]*jsonrpcMessage, er
 //
 // The currently supported URL schemes are "http", "https", "ws" and "wss". If rawurl is a
 // file name with no URL scheme, a local socket connection is established using UNIX
-// domain sockets on supported platforms and named pipes on Windows.
+// domain sockets on supported platforms.
 //
 // If you want to further configure the transport, use DialOptions instead of this
 // function.
