@@ -18,6 +18,8 @@ import (
 	_ "github.com/ava-labs/subnet-evm/precompile/contracts/rewardmanager"
 
 	_ "github.com/ava-labs/subnet-evm/precompile/contracts/warp"
+
+	_ "github.com/ava-labs/subnet-evm/precompile/contracts/kvstore"
 	// ADD YOUR PRECOMPILE HERE
 	// _ "github.com/ava-labs/subnet-evm/precompile/contracts/yourprecompile"
 )
