@@ -61,3 +61,4 @@ diffs/
 avalanchego/
 
 .direnv
+custom_vm.bin
